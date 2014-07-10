@@ -41,5 +41,39 @@ var letterCount = function(input) {
 
 // I'm still not happy with the print format, but oh well!
 
-letterCount(words);
-console.log(count);
+// letterCount(words);
+// console.log(count);
+
+
+// // Solution by Anil
+// var word = "mississippi";
+
+// var letterCount = function(letters) {
+
+//   var result = {}
+
+//   for(var i = 0; i < letters.length; i++) {
+
+//     if (result[letters[i]]) {
+//       result[letters[i]] += 1;
+//     } else {
+//       result[letters[i]] = 1;
+//     }
+
+//   }
+
+//   return result;
+// }
+
+// console.log(letterCount(word));
+
+
+
+
+
+
+
+
+
+
+
