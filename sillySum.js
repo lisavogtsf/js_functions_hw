@@ -4,11 +4,17 @@
 
 // count += (number * index)
 
-var sampleArr = [3, 5, 7, 1, 99, 2, 4];
+var sampleArr = [3, 5, 7, 1, 6, 2, 4];
 
 var sillySum = function(arr) {
+	sumArr = 0;
 
+	for (var i = 0; i < arr.length; i++) {
+		sumArr += arr[i] * i;
 
+	}
+
+	return sumArr;
 }
 
 var results = sillySum(sampleArr);
